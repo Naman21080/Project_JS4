@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    /* background-color: rgb(78, 78, 78); */
+    background-image: url(45373.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container{
+    color: #d7dfe4;
+}
+
+.digit{
+    font-size: 180px;
+    font-weight: bold;
+}
+.text{
+    font-size: 40px;
+    font-weight: bold;
+}
+#button-block{
+    text-align: center;
+    margin-top: 50px;
+}
+.button{
+    padding: 10px 25px;
+    font-size: 15px;
+    margin: 0px 10px;
+    color: azure;
+    border: 0px;
+    cursor: pointer;
+}
+#start{
+    background-color: #58bd58;
+}
+#stop{
+     background-color: rgb(5, 102, 158);
+}
+#reset{
+     background-color: red;
+}
