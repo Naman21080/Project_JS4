@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background-image: url(mountain.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container{
+    color: #3c1a05b2;
+}
+
+.digit{
+    font-size: 6rem;
+    font-weight: bold;
+}
+.text{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#button-block{
+    text-align: center;
+    margin-top: 10%;
+}
+#st1{
+    background-color: #25ef25;
+    margin-right: 5%;
+}
+#st2{
+    background-color: rgb(238, 230, 10);
+    margin-right: 5%;
+}
+#st3{
+    background-color: red;
+}
+@media only screen and (max-width: 600px) {
+   body{
+    height: 100%;
+   }
+    #time {
+    padding-left: 30%;
+    width: 36%;
+    }
+    #st1{
+        margin-bottom: 10%;
+    }
+    #st2{
+        margin-bottom: 10%;   
+    }
+    #st3{
+        margin-bottom: 10%;    
+    }
+  }
